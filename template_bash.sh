@@ -32,7 +32,7 @@ setup_colors() {
         GREY="$(tput setaf 0)" LRED="$(tput setaf 1)" LGREEN="$(tput setaf 2)" LYELLOW="$(tput setaf 3)" LBLUE="$(tput setaf 4)" LPURPLE="$(tput setaf 5)" LCYAN="$(tput setaf 6)" LWHITE="$(tput setaf 7)"
   else
         NOFORMAT=''
-        BLACK= '' RED='' GREEN='' YELLOW='' BLUE='' PURPLE='' CYAN='' WHITE=''
+        BLACK='' RED='' GREEN='' YELLOW='' BLUE='' PURPLE='' CYAN='' WHITE=''
         GREY='' LRED='' LGREEN='' LYELLOW='' LBLUE='' LPURPLE='' LCYAN='' LWHITE=''
   fi
 }
